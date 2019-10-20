@@ -10,7 +10,7 @@ export default class TabT {
         return [D_Tab]
     }
     slotComponents() {
-        return [D_TabPane,D_ButtonT,D_Select]
+        return [D_TabPane,D_ButtonT]
     }
     methods() {
         return {
