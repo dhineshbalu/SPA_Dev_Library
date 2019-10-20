@@ -2,7 +2,7 @@ import buttont from './buttont.js'
 import LoaderT from './LoaderT.js'
 import SelectT from './SelectT.js'
 import TabT from './TabT.js'
-import ModalForm from './ModalFormT.js'
+import ModalFormT from './ModalFormT.js'
 import InputT from './InputT.js'
 import SwitchT from './SwitchT.js'
 import PanelT from './PanelT.js'
@@ -17,7 +17,7 @@ export default class LandingPage {
         this.name = 'LandingPage'
     }
     components() {
-        return [buttont,LoaderT,SelectT,TabT,ModalForm,InputT,SwitchT,PanelT,GridT,CarosalT,CheckBoxT,RadioT,CheckBoxesT]
+        return [buttont,LoaderT,SelectT,TabT,ModalFormT,InputT,SwitchT,PanelT,GridT,CarosalT,CheckBoxT,RadioT,CheckBoxesT]
     }
     created() {
         return {
